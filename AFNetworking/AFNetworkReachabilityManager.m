@@ -132,7 +132,7 @@ static void AFNetworkReachabilityReleaseCallback(const void *info) {
     
     
     return _sharedManager;
-}}
+}
 
 + (instancetype)managerForDomain:(NSString *)domain {
     SCNetworkReachabilityRef reachability = SCNetworkReachabilityCreateWithName(kCFAllocatorDefault, [domain UTF8String]);
